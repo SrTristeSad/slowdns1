@@ -22,8 +22,8 @@ banner='
 \__ \ |_| (_) \ \/\/ /| |) | .  \__ \
 |___/____\___/ \_/\_/ |___/|_|\_|___/'
 
-echo -e "${CORTITLE}▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬${SCOLOR}"
-echo -e "${CORTITLE}       CLIENTE SLOWDNS     ${SCOLOR}"
+echo -e "${CORTITLE}▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬${SCOLOR}"
+echo -e "${CORTITLE}  CLIENTE SLOWDNS     ${SCOLOR}"
 echo -e "${CORTITLE}▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬${SCOLOR}"
 echo -e "${RED}$banner${SCOLOR}"
 echo ""
@@ -51,31 +51,31 @@ Opcao1 () {
 clear
 if [ -e $arquivo ]; then
 
-echo -e "${CORTITLE}=========================================${SCOLOR}"
+echo -e "${CORTITLE}▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬${SCOLOR}"
 echo -e "${CORTITLE} SLOWDNS JÁ INSTALADO                    ${SCOLOR}"
 echo -e "${CORTITLE} DESLIGUE O WIFFI LIGUE OS DADOS MOVEIS  ${SCOLOR}"
 echo -e "${CORTITLE} APERTE ENTER  E ESCOLHA AS OPÇÕES       ${SCOLOR}"
 echo -e "${CORTITLE} DO DNS E DEPOIS LIGUE A VPN             ${SCOLOR}"
-echo -e "${CORTITLE}=========================================${SCOLOR}"
+echo -e "${CORTITLE}▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬${SCOLOR}"
 
 else
 clear
-echo -e "${GREEN}=========================================${SCOLOR}"
+echo -e "${GREEN}▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬${SCOLOR}"
 echo -e "${CORTITLE}INSTALANDO GIT... ${SCOLOR}"
-echo -e "${GREEN}=========================================${SCOLOR}"
+echo -e "${GREEN}▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬${SCOLOR}"
 pkg install git -y > /dev/null 2>&1
 echo -e "${CORTITLE}GIT INSTALADO${SCOLOR}"
-echo -e "${GREEN}=========================================${SCOLOR}"
+echo -e "${GREEN}▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬${SCOLOR}"
 echo -e "${CORTITLE}BAIXANDO GO...${SCOLOR}"
-echo -e "${GREEN}=========================================${SCOLOR}"
+echo -e "${GREEN}▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬${SCOLOR}"
 pkg install golang -y > /dev/null 2>&1
 echo -e "${CORTITLE}GO INSTALADO${SCOLOR}"
-echo -e "${GREEN}=========================================${SCOLOR}"
+echo -e "${GREEN}▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬${SCOLOR}"
 echo -e "${CORTITLE}BAIXANDO DNSTT${SCOLOR}"
-echo -e "${GREEN}=========================================${SCOLOR}"
+echo -e "${GREEN}▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬${SCOLOR}"
 git clone https://www.bamsoftware.com/git/dnstt.git > /dev/null 2>&1
 echo -e "${CORTITLE}DNSTT INSTALADO${SCOLOR}"
-echo -e "${GREEN}=========================================${SCOLOR}"
+echo -e "${GREEN}▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬${SCOLOR}"
 touch ~/dnstt/dnstt-client/dns
 echo "#!/bin/sh" >> ~/dnstt/dnstt-client/dns
 echo "go build"  >> ~/dnstt/dnstt-client/dns
